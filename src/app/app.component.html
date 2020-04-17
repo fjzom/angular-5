@@ -1,0 +1,9 @@
+ <h1>{{name}}</h1>
+<p>
+  Assigment: 1
+</p>
+<app-color  [changeColor]= "_color" ></app-color><br/>
+ <button (click)="setColor(1)">Red</button>
+ <button (click)="setColor(2)">Blue</button>
+ <button (click)="setColor(3)">Green</button>
+ <p [ngStyle]="styleObj">colorPadre</p> 
